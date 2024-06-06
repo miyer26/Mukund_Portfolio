@@ -21,3 +21,14 @@
     text-wrap: balance;
   }
 }
+
+.hoverable icon:hover {
+  transform: scale(1.1);
+  /* Increase the size by 10% on hover */
+  transition: transform 0.2s ease -in -out;
+  /* Smooth transition for the transform */
+}
+
+html {
+  scroll-behavior: smooth;
+}

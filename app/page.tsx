@@ -49,8 +49,7 @@ export default function Home() {
 
       {/* Navigation Links */}
       <div className="fixed bottom-3 right-1 transform -translate-x-1/2 bg-white shadow-md p-3 rounded-lg">
-        <div className="flex space-x-5">
-          <a href="#home" className="text-lg hover:text-blue-500">Home</a>
+        <div className="flex space-x-2">
           <a href="#projects" className="text-lg hover:text-blue-500">Projects</a>
           <a href="#skills" className="text-lg hover:text-blue-500">Skills</a>
         </div>

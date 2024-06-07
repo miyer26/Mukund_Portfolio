@@ -2,17 +2,13 @@ import ProjectCard, { Project } from "./ProjectCard";
 
 const projectsData: Project[] = [
     {
-        title: "Pneumonia Detection API",
+        title: "Pneumonia Detection",
         image: "/images/x-ray.jpeg",
-        description: "Description of Project 1",
+        description: "I have always wanted to understand the impact of computer vision in the medical field. \
+        In this project, I've developed a simple API, intended for use by doctors, which determined if a\
+        chest x-ray shows signs of pneumonia.",
         githubRepo: "https://github.com/miyer26/pnuemonia-detection-app",
         demoUrl: "https://google.com"
-    },
-    {
-        title: "Project 2",
-        image: "/images/project2.jpg",
-        description: "Description of Project 2",
-        githubRepo: "https://github.com/username/project2"
     },
     // Add more projects as needed
 ];

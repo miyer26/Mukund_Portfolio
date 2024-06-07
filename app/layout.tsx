@@ -10,8 +10,8 @@ const Navbar = () => {
         <nav>
           <ul className="flex gap-10">
             <li><a href="/" className="hover:text-blue-500">Home</a></li>
-            <li><a href="/projects" className="hover:text-blue-500">Projects</a></li>
-            <li><a href="/skills" className="hover:text-blue-500">Skills</a></li>
+            <li><a href="#projects" className="hover:text-blue-500">Projects</a></li>
+            <li><a href="#skills" className="hover:text-blue-500">Skills</a></li>
           </ul>
         </nav>
       </div>

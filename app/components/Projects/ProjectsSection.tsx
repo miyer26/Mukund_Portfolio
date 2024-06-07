@@ -1,10 +1,4 @@
-import Image from "next/image";
-import RootLayout from "../../layout";
-import { Project, ProjectCard } from "../../layout";
-
-
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
+import ProjectCard, { Project } from "./ProjectCard";
 
 const projectsData: Project[] = [
     {

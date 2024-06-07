@@ -10,7 +10,7 @@ import SkillsSection from './components/Skills/SkillsSection';
 
 export default function Home() {
   return (
-    <RootLayout showTitle={false}>
+    <RootLayout>
       {/* Introduction */}
       <div className="flex flex-col justify-center items-center text-center min-h-screen">
         <div className="relative md:w-96 md:h-96">

@@ -53,7 +53,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
             {children}
           </div>
         </main>
-        <Footer />
       </body>
     </html>
   );
